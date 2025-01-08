@@ -1,0 +1,34 @@
+.controls {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+}
+
+.connectButton {
+  background: var(--primary-button);
+  border: 2px solid var(--primary-button);
+  border-radius: 6px;
+  color: var(--primary-button-text);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 6px 24px;
+}
+
+.connectButton:hover {
+  background: var(--primary-button-hover);
+  border: 2px solid var(--primary-button-hover);
+}
+
+.network {
+  padding: 7px 24px;
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+  .network {
+    display: none;
+  }
+}
